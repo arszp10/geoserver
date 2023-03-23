@@ -1,6 +1,6 @@
 # Docker Geoserver
 
-[![Build and Push Docker Image](https://github.com/arszp10/docker-geoserver/actions/workflows/docker.yml/badge.svg)](https://github.com/arszp10/docker-geoserver/actions/workflows/docker.yml)
+[![Build and Push Docker Image](https://github.com/arszp10/geoserver/actions/workflows/docker.yml/badge.svg)](https://github.com/arszp10/geoserver/actions/workflows/docker.yml)
 
 Этот проект основан на [tomcat java 11](https://hub.docker.com/_/tomcat) и использует плагин [GWC SQLite Plugin](https://docs.geoserver.org/latest/en/user/community/gwc-sqlite/index.html).
 
