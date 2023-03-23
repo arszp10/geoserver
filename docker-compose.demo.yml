@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  geoserver:
+    image: ghcr.io/arszp10/geoserver:2.22.2
+    restart: always
+    user: tomcat
+    ports:
+      - "8080:8080"
+    volumes:
+      - /path:/opt/geoserver/data_dir
