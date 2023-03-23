@@ -12,7 +12,7 @@ RUN wget -qO geoserver.zip https://downloads.sourceforge.net/project/geoserver/G
   rm -rf geoserver.zip geoserver.war data && \
   mv WEB-INF/lib/marlin-0.9.3.jar $CATALINA_HOME/lib/marlin.jar
 
-RUN wget -qO gwc-sqlite-plugin.zip https://build.geoserver.org/geoserver/2.22.x/community-2023-03-21/geoserver-2.22-SNAPSHOT-gwc-sqlite-plugin.zip && \
+RUN wget -qO gwc-sqlite-plugin.zip https://build.geoserver.org/geoserver/2.22.x/community-latest/geoserver-2.22-SNAPSHOT-gwc-sqlite-plugin.zip && \
   unzip -qo gwc-sqlite-plugin.zip -d WEB-INF/lib && \
   rm gwc-sqlite-plugin.zip
 
